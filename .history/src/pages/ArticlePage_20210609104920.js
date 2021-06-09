@@ -19,7 +19,7 @@ const ArticlePage = ({ match }) => {
         ))}
         <h3>Other Articles:</h3>
         <ArticlesList articles={otherArticles} />
-        </div>
+        </>
     );
 }
 

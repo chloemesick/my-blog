@@ -9,7 +9,7 @@ const ArticlesList = ({ articles }) => (
             <p>{article.content[0].substring(0, 150)}...</p>
         </Link>
     ))}
-    </div>
+    <div>
 );
 
 export default ArticlesList;

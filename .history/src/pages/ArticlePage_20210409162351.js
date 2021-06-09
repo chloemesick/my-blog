@@ -12,14 +12,14 @@ const ArticlePage = ({ match }) => {
     const otherArticles = articleContent.filter(article => article.name !== name);
 
     return (
-        <div>
+        <>
         <h1>{article.title}</h1>
         {article.content.map((paragraph, key) => (
             <p key={key}>{paragraph}</p>
         ))}
         <h3>Other Articles:</h3>
         <ArticlesList articles={otherArticles} />
-        </div>
+        </>
     );
 }
 
