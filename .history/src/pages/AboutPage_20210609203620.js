@@ -1,7 +1,7 @@
 import React from 'react';
 
 const AboutPage = () => (
-    <div>
+    <>
     <h1>About me</h1>
     <p>
         Welcome to my blog! Proin congue

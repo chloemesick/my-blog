@@ -1,7 +1,7 @@
 import React from 'react';
 
 const AboutPage = () => (
-    <div>
+    <>
     <h1>About me</h1>
     <p>
         Welcome to my blog! Proin congue
@@ -27,7 +27,7 @@ const AboutPage = () => (
         interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
         consequat quam. Vivamus accumsan dui in facilisis aliquet.,
     </p>
-    </div>
+    </>
 );
 
 export default AboutPage;
